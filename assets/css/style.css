@@ -425,14 +425,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(7, 0, 0);
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
   color: #f19b04;
 }
 #hero h2 {
-  color: #eee;
+  color: rgb(12, 0, 0);
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
@@ -599,7 +599,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #050000;
   font-family: "Poppins", sans-serif;
 }
 .section-title h2::after {
@@ -741,7 +741,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  color: #111111;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -910,7 +910,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #fff;
+  color: rgb(8, 0, 0);
 }
 .specials .details p {
   color: #aaaaaa;
@@ -929,13 +929,12 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../assets\img\gallery4.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
 .events::before {
   content: "";
-  background-color: rgba(243, 169, 8, 0.8);
+  
   position: absolute;
   top: 0;
   right: 0;
@@ -943,7 +942,7 @@ section {
   bottom: 0;
 }
 .events .section-title h2 {
-  color: #fff;
+  color: rgb(10, 9, 9);
 }
 .events .container {
   position: relative;
@@ -958,7 +957,7 @@ section {
   padding: 30px;
 }
 .events .event-item {
-  color: #fff;
+  color: rgb(7, 7, 7);
 }
 .events .event-item h3 {
   font-weight: 600;
@@ -984,7 +983,7 @@ section {
 .events .event-item ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #cda45e;
+  
 }
 .events .event-item p:last-child {
   margin-bottom: 0;
@@ -1511,4 +1510,7 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+.a{
+  background-color: white;
 }

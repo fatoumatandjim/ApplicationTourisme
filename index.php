@@ -69,7 +69,7 @@ $preparee->execute();
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.php"> <span>ODK's</span> <span> Tour</span> isme</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.php"> <span class="text-success">ODK's</span> <span class="text-warning"> Tour</span><spanc class="text-danger">isme</span> </a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.php" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -77,7 +77,7 @@ $preparee->execute();
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">A propos</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">photos </a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gqllerie </a></li>
           <li><a class="nav-link scrollto" href="#events">Description</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Agence</a></li>
           <li class="dropdown"><a href="#"><span>Localite</span> <i class="bi bi-chevron-down"></i></a>
@@ -108,8 +108,7 @@ $preparee->execute();
           <h2>Les lieux de merveille sont dans Notre site</h2>
 
           <div class="btns">
-            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
-            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">B</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Reservation</a>
           </div>
         </div>
         <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
@@ -163,12 +162,15 @@ $preparee->execute();
     <!-- ======= Specials Section ======= -->
 
     <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+    <section id="events" class="">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>les Merveilles du tourisme </h2>
           <p>SE TROUVE ICI</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua.
+                    </p></p>
         </div>
 
         
@@ -333,7 +335,9 @@ $preparee->execute();
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Bamako Mali
+                  
+                </p>
               </div>
 
               <div class="open-hours">
@@ -348,13 +352,13 @@ $preparee->execute();
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>fatoumat@gmail.com.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>73989833</p>
               </div>
 
             </div>
@@ -383,7 +387,7 @@ $preparee->execute();
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">envoyer le Message</button></div>
             </form>
 
           </div>
@@ -406,7 +410,7 @@ $preparee->execute();
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Tourisme</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
